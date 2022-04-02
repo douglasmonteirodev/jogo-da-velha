@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./styles/style.css">
+    <title>Jogo da velha</title>
+</head>
+
+<body>
+    <h1>Jogo da velha</h1>
+    <div class="placar">
+        <h4>Placar</h4> <span id="player1">0</span> : <span id="player2">0 </span>
+    </div>
+    <div class="stage">
+        <div>
+            <div class="square" id="0"></div>
+            <div class="square" id="1"></div>
+            <div class="square" id="2"></div>
+        </div>
+        <div>
+            <div class="square" id="3"></div>
+            <div class="square" id="4"></div>
+            <div class="square" id="5"></div>
+        </div>
+        <div>
+            <div class="square" id="6"></div>
+            <div class="square" id="7"></div>
+            <div class="square" id="8"></div>
+        </div>
+        <input type="button" value="Reset" onclick="reset()" class="btn">
+    </div>
+    <script src="./script/game.js"></script>
+    <script src="./script/interface.js"></script>
+</body>
+
+</html>

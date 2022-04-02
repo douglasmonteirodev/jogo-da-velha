@@ -1,0 +1,78 @@
+body {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(87, 84, 82, 0.322);
+
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: rgba(0, 26, 255, 0.397);
+    border: 1px solid rgb(0, 0, 0);
+    display: inline-block;
+    cursor: pointer;
+    box-shadow: 5px 5px 10px rgba(133, 125, 125, 0.459);
+}
+
+.square:hover {
+    background-color: rgba(0, 26, 255, 0.336);
+}
+
+.o {
+    position: relative;
+}
+
+.o::after {
+    position: absolute;
+    content: "\2b55";
+    font-size: 50px;
+    line-height: 100px;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+
+.x {
+    position: relative;
+}
+
+.x::after {
+    position: absolute;
+    content: "\2716";
+    font-size: 50px;
+    line-height: 100px;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.btn {
+    margin-top: 10px;
+    background-color: rgba(0, 26, 255, 0.459);
+    padding: 5px 25px 5px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: solid 1px black;
+    box-shadow: 5px 5px 10px rgba(48, 35, 35, 0.459);
+}
+
+.btn:hover {
+    background-color: rgba(0, 26, 255, 0.336);
+}
+
+.placar {
+    text-align: center;
+    font-size: 25px;
+    letter-spacing: 10px;
+    margin-bottom: 10px;
+}
+
+h4 {
+    margin-bottom: 10px;
+    letter-spacing: 7px;
+
+}
