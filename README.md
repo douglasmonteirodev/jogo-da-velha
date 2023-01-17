@@ -1,11 +1,15 @@
 # JOGO DA VELHA
 
-## <i>Projeto feito com Javascipt </i>
-
-## Link: https://bit.ly/3RgFR71
+[![Blog](https://img.shields.io/website?label=deploy&style=for-the-badge&url=https://douglasmonteirodev.github.io/jogo-da-velha/)](https://douglasmonteirodev.github.io/jogo-da-velha/)
 
 <p align="center">
-      <img src="assets/preview/home_preview.png">
-</p
+  <img src="assets/preview/home.png">
+</p>
+
+## Descrição:
+
+- `Projeto feito com javascript.`
+- `Contagem do placar.`
+- `Alert mostrando qual jogador venceu a rodada.`
 
 ## <i>Douglas Monteiro</i> 😁🔥🚀
